@@ -1,0 +1,59 @@
+{
+   "Airdopes":{
+      "EnableConnectivity":"Yes",
+      "EnableCTC":"Yes",
+      "EnableBatteryLife":"No",
+      "EnableMicTesting":"No",
+	  "EnableSpeakerTesting":"Yes",
+      "EnableLongHourTesting":"Yes",
+	  "EnableRssiTesting":"Yes",
+	  "EnableMobilePhoneTesting":"Yes",
+      "PairingTimes":"5",
+      "ConnectionTimes":"5",
+	  "RssiObservationDuration":"30",	  
+      "CTC":{		  
+		 "LeftSTCheckEnable":"Yes",
+		 "LeftDTCheckEnable":"Yes",
+		 "LeftLTCheckEnable":"No",
+		 "RightSTCheckEnable":"Yes",
+		 "RightDTCheckEnable":"Yes",
+		 "RightLTCheckEnable":"No",
+         "LeftSingleNoOfTimes":"5",
+         "LeftSingleInterval":"6",
+         "LeftDoubleNoOfTimes":"5",
+         "LeftDoubleInterval":"3",
+         "LeftLongNoOfTimes":"5",
+         "LeftLongInterval":"3",
+         "RightSingleNoOfTimes":"5",
+         "RightSingleInterval":"6",
+         "RightDoubleNoOfTimes":"5",
+         "RightDoubleInterval":"3",
+         "RightLongNoOfTimes":"5",
+         "RightLongInterval":"3"
+      },
+	  "Control":{		  
+		 "CallControlEnable":"Yes",
+		 "PlayControlEnable":"Yes",
+		 "AnswerEndNoOfTimes":"1",
+		 "RejectNoOfTimes":"1",
+		 "PlayPauseNoOfTimes":"3",
+		 "NextPrevNoOfTimes":"3",
+		 "VolumeUpDownNoOfTimes":"3"
+      },
+      "LongHour":"5",
+       "VolumeControl": "60"
+   },
+   "Airoha":{
+     "TWS_Devices":["Airdopes 441","Airdopes 281 Pro","Airdopes 282 Pro"],
+	 "NB_Devices":["Rockerz 330","Rockerz 333","Rockerz 330 Pro","Rockerz 333 Pro","Rockerz 335 PRO","Nirvanaa 525ANC","Rockerz 330 Pro"]
+   },
+   "MobileInformation":{
+	 "MobilePhone1_ModelName":"samsung",
+	 "MobilePhone1_OsVersion":"11",
+	 "MobilePhone1_SerialNumber":"RZ8M43FFMJV",
+	 "MobilePhone1_PhoneNumber":"9136402161",
+	 "MobilePhone2_SerialNumber":"RZ8M92R8AYR"
+   },
+   "TesterName":"boAt R&D",
+   "ToolVersion":"5.2.4"
+}
